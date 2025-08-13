@@ -11,11 +11,11 @@ const createInitialAnswers = (): Answer[] => {
 
 const initialState: QuizState = {
   currentQuestion: 0,
-  timedLed: 20 * 60,
-  skipped: [],
   answers: createInitialAnswers(),
   score: 0,
   isFinish: false,
+  skipped: [],
+  timedLed: 20 * 60,
 };
 
 const calculateScore = (answers: Answer[]): number => {
