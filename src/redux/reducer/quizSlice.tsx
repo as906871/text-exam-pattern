@@ -78,5 +78,5 @@ export const quizSlice = createSlice({
   },
 });
 
-export const {selectedAnswer,nextQuestion,restartQuiz, finishQuiz, tick, skipQuestion, prevQuestion  } = quizSlice.actions;
+export const {selectedAnswer,nextQuestion,restartQuiz, finishQuiz, tick, skipQuestion, prevQuestion } = quizSlice.actions;
 export default quizSlice.reducer;
