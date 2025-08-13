@@ -48,11 +48,9 @@ const Result = () => {
         style={{
           padding: '10px 20px',
           backgroundColor: '#007bff',
-          border: 'none',
           borderRadius: '8px',
           color: '#fff',
           fontSize: '16px',
-          fontWeight: '500',
           cursor: 'pointer',
         }}
       >
